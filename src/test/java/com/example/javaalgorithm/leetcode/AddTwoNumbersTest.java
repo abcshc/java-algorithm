@@ -37,7 +37,8 @@ class AddTwoNumbersTest {
         answer.next.next.next.next.next.next.next = new ListNode(0);
         answer.next.next.next.next.next.next.next.next = new ListNode(0);
         answer.next.next.next.next.next.next.next.next.next = new ListNode(0);
-        answer.next.next.next.next.next.next.next.next.next.next = new ListNode(1);
+        answer.next.next.next.next.next.next.next.next.next.next = new ListNode(0);
+        answer.next.next.next.next.next.next.next.next.next.next.next = new ListNode(1);
 
         ListNode l1 = new ListNode(9);
 

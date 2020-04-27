@@ -19,7 +19,7 @@ class FindPrimeNumberTest {
 
     @Test
     void case3() {
-        assertEquals(10, findPrimeNumber.solution("1234"));
+        assertEquals(14, findPrimeNumber.solution("1234"));
     }
 
     @Test
