@@ -36,4 +36,19 @@ class GymSuitTest {
     void case6() {
         assertEquals(2, gymSuit.solution(3, new int[]{1, 2}, new int[]{2, 3}));
     }
+
+    @Test
+    void case7() {
+        assertEquals(4, gymSuit.solution(5, new int[]{1, 3, 5}, new int[]{2, 4}));
+    }
+
+    @Test
+    void case8() {
+        assertEquals(5, gymSuit.solution(6, new int[]{1, 3, 5, 6}, new int[]{2, 4, 5}));
+    }
+
+    @Test
+    void case9() {
+        assertEquals(2, gymSuit.solution(2, new int[]{1}, new int[]{2}));
+    }
 }
